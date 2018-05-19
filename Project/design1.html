@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design 1</title>
+    <link rel="stylesheet"type="text/css"href="designs.css" />
+
+    <!--<style type="text/css">
+          /* CSS Here or link to a different file */
+
+
+      </style>-->
+    <link rel="stylesheet"type="text/css"href="designs.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<h1 class="name"> Name: Netra Bhadkamkar</h1>
+<h2 class="name"> Student Id: 01669577</h2>
+<h3> Course Title: Data Visualization (DSC 530/ CIS 602-01)</h3>
+<h3> Project Name: Global Food Prices </h3>
+
+<h1>World Map</h1>
+
+<div id="map"></div>
+
+<!--<h3>Click country to explore more</h3>-->
+<!--<li><a href="country.html"> Click to explore</a></li>-->
+<h1>Select country</h1>
+<div id ="controls">
+    <div id="country-type">
+        <select id = "country">
+
+        </select>
+        <select id = "item"> </select>
+
+    </div>
+
+
+
+    <div id ="graph">
+       <!-- <svg width = "960",height = "500"></svg>-->
+
+    </div>
+    <select id = "year"></select>
+    <select id = "year1"></select>
+    <select id = "year2"></select>
+    <div id = "graph1">
+
+    </div>
+    <div id = "graph2"></div>
+
+    <div id = "graph3"></div>
+
+
+</div>
+
+<!--<svg width = "960" height = "1000"></svg>-->
+<script type="text/javascript" src="map.js"></script>
+</body>
