@@ -1,0 +1,25 @@
+.name{
+    color: blue;
+}
+
+h3{
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4{
+    color: green;
+
+}
+
+ #initials{
+    color: red;
+     stroke: red;
+     stroke-width: 3;
+}
+
+
+ #baryear{
+     display:inline-block;
+ }
+
