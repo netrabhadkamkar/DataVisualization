@@ -1,0 +1,20 @@
+@import url(//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.css);
+
+#map-overlay {
+    width: 960px;
+    height: 900px;
+}
+
+.name{
+    color: navy;
+}
+
+h3{
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4{
+    color: green;
+
+}
